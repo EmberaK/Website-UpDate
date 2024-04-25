@@ -1,0 +1,20 @@
+@import url(./normalize.css);
+@import url(./rezet.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font: 400;
+}
+
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+}

@@ -1,0 +1,65 @@
+
+.header{
+
+    background-color: #EFEFF2;
+}
+
+.wrapper_header{
+    padding-top: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_box,
+.logo_header,
+.navigation_list,
+.user_active{
+    display: flex;
+    align-items: center;
+}
+
+.logo_header{
+    gap: 14px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #19191C;
+    margin-right: 68px;
+}
+
+.navigation_list{
+    gap: 46px;
+
+}
+
+.navigation_link_courses{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.link{
+    color: #19191C;
+}
+
+.item{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.user_active{
+    gap: 48px;
+}
+
+.user_active_link:not(:last-child){
+    color: #19191C;
+}
+
+.button_black{
+    padding: 12px 37px;
+    background-color: #19191C;
+    color: #FBFBFC;
+}
