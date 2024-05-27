@@ -87,21 +87,14 @@
     margin-bottom: 195px;
 }
 
-/* .offer__content{
-    background-image: url(../image/business_woman.png);
-    background-position: bottom right;
-    background-repeat: no-repeat;
 
-} */
 
 .offer__list{
     position: relative;
     width: 100%;
     background-image: url(../image/business_woman.png);
-    background-position: bottom right;
+    background-position: bottom left;
     background-repeat: no-repeat;
-
-
 }
 
 
@@ -135,7 +128,7 @@
 }
 .offer__list--photoshop{
     position: absolute;
-    left: 117px;
+    left: 95px;
     top: 256px;
 }
 .offer__list--figma{
@@ -147,4 +140,18 @@
     position: absolute;
     left: 25px;
     top: 570px;
+}
+
+@media (max-width:1440px) {
+    .wrapper_offer{
+        flex-direction: column;
+    }
+    .offer__form{
+        width: auto;
+    }
+    .offer__list,
+    .offer__list li{
+        position: static;
+        background-image: none;
+    }
 }

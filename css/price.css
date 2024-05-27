@@ -89,3 +89,12 @@
     background: #FBFBFC;
     color: #504DEE;
 }
+
+@media (max-width:1440px) {
+    .price-blocks-content{
+        flex-direction: column;
+    }
+    .price-block{
+        width: auto;
+    }
+}

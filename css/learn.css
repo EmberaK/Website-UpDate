@@ -112,3 +112,19 @@
     color: #19191C;
     width: 368px;
 }
+
+@media (max-width:1440px) {
+    .learn-description_blocks,
+    .learn-block-info,
+    .learn-counters{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .learn-counter_salary{
+        margin-right: 0;
+        
+    }
+    .learn-description{
+        width: auto;
+    }
+}

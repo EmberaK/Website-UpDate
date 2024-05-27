@@ -63,3 +63,18 @@
     background-color: #19191C;
     color: #FBFBFC;
 }
+
+@media (max-width:1440px) {
+    .logo_header{
+        margin-right: 0;
+    }
+    .wrapper_header, 
+    .header_box{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header_box{
+        align-items: start;
+
+    }
+}

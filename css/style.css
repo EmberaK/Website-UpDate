@@ -19,3 +19,8 @@ body{
     margin-right: auto;
     width: 1440px;
 }
+@media (max-width:1440px) {
+    .wrapper{
+        width: auto;
+    }
+}
