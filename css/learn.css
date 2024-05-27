@@ -1,0 +1,114 @@
+
+.learn{
+    padding-top: 168px;
+}
+
+.learn-block-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 168px;
+}
+
+/* .learn-text{
+    margin-right: 141px;
+} */
+
+.learn-title-profession,
+.learn-counter-number,
+.discover-prices{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #19191C;
+}
+
+.learn-counter-description::after{
+    content: '';
+    display: flex;
+    width: 254px;
+    height: 4px;
+    margin-top: 21px; /* Расстояние от текста */
+    background-color: #19191C;
+}
+
+.learn-title-profession{
+    margin-bottom: 28px;
+}
+
+
+
+.learn-description,
+.learn-counter-description-content{
+    color: #6D6D77;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+
+
+}
+
+.learn-description{
+    width: 588px;
+}
+
+.learn-counter-description{
+    margin-bottom: 18px;
+}
+
+.learn-counters{
+    display: flex;
+}
+
+.learn-counter_salary{
+    margin-right: 103px;
+}
+
+
+.learn-description_blocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn-portfolio{
+    padding: 70px 50px;
+}
+
+.learn-portfolio-block1{
+    background: #DEEFE4;
+
+}
+
+.learn-portfolio-block2{
+    background: #F3F3D7;
+
+}
+
+.learn-portfolio-block3{
+    background: #EFDEEE;
+
+}
+
+.learn-portfolio-title{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+    color: #19191C;
+    margin-bottom: 12px;
+}
+
+.learn-portfolio-title::after{
+    content: '';
+    display: flex;
+    width: 371px;
+    height: 4px;
+    margin-top: 28px; /* Расстояние от текста */
+    background-color: #19191C;
+}
+
+.learn-portfolio-content{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #19191C;
+    width: 368px;
+}

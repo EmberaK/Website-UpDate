@@ -1,0 +1,91 @@
+
+.price-blocks{
+    margin: 170px 0;
+}
+
+.discover-prices{
+    margin-bottom: 100px;
+}
+
+.price-block{
+    height: 732px;
+    width: 467px;
+    padding: 48px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-block:not(:nth-child(2)){
+    background: #DEEFE4;
+    color: #19191C;
+
+
+}
+
+.price-block:nth-child(2){
+    background: #504DEE;
+    color: #ffffff;
+}
+
+.price-blocks-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.price-title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 47px;
+}
+
+.price-block-list > li{
+    list-style-type: square;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.price-block-list > li:not(:last-child) {
+    padding-bottom: 22px;
+}
+
+.base-price{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-bottom: 3px;
+    
+}
+
+.price-block-end{
+    margin-top: auto;
+}
+
+.discounted-price{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.price-button-choose{
+    display: inline-block;  
+    padding: 16px 36px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 18px;
+}
+
+.price-button-choose-grayscale{
+    background-color: #19191C;
+    color: #fff;
+}
+
+.price-button-choose-white{
+    background: #FBFBFC;
+    color: #504DEE;
+}

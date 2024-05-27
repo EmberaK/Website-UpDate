@@ -1,0 +1,150 @@
+.offer{
+    padding-top: 167px;
+    background-color: #EFEFF2;
+}
+
+.wrapper_offer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.offer__form{
+    width: 648px;
+    background-image: url(../image/gradient1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top 0 left 0;
+
+
+}
+
+
+
+.offer__months::after {
+    content: '';
+    display: flex;
+    width: 84px;
+    height: 4px;
+    margin-top: 8px; /* Расстояние от текста */
+    background-color: #504DEE;
+}
+
+.offer__time,
+.offer__button{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #19191C;
+}
+
+.offer_work,
+.offer__description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #19191C;
+
+}
+
+.offer_work{
+    margin-top: 32px;
+    margin-bottom: 2px;
+}
+
+.offer__title{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #19191C;
+}
+
+.offer__description{
+    margin: 50px 0;
+
+}
+
+.offer__button{
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    width: 140px;
+    padding: 16px 37px;
+    background: #504DEE;
+}
+
+.offer__sale{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #19191C;
+    margin-top: 110px;
+    margin-bottom: 8px;
+
+}
+
+.offer__date{
+    margin-bottom: 195px;
+}
+
+/* .offer__content{
+    background-image: url(../image/business_woman.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+} */
+
+.offer__list{
+    position: relative;
+    width: 100%;
+    background-image: url(../image/business_woman.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.offer__list__program{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #19191C;
+    padding: 16px 36px;
+    border: solid #19191C 1px;
+    padding: 16px 36px;
+}
+
+.offer__list--vision{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.offer__list--proto{
+    position: absolute;
+    left: 433px;
+    top: 0;
+}
+.offer__list--miro{
+    position: absolute;
+    left: 244px;
+    top: 74px;
+}
+.offer__list--photoshop{
+    position: absolute;
+    left: 117px;
+    top: 256px;
+}
+.offer__list--figma{
+    position: absolute;
+    left: 0;
+    top: 393px;
+}
+.offer__list--illustrator{
+    position: absolute;
+    left: 25px;
+    top: 570px;
+}

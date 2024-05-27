@@ -1,7 +1,8 @@
-@import url(./normalize.css);
-@import url(./rezet.css);
+@import url(./reset.css);
 @import url(./header.css);
-@import url(./main.css);
+@import url(./offer.css);
+@import url(./learn.css);
+@import url(./price.css);
 @import url(./footer.css);
 
 *{
